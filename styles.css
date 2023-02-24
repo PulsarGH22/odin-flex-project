@@ -1,0 +1,30 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+ul{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    margin-bottom: 24px;
+}
+
+li{
+    display: flex;
+    gap:8px;
+}
+
+.header-logo,.header-links{
+    display: flex;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    
+}
